@@ -11,8 +11,8 @@
     </header>
 
     <div class="button-container mt-4">
-      <a href="/login" class="btn btn-lg btn-primary me-3">Login</a>
-      <a href="/signup" class="btn btn-lg btn-warning">Signup</a>
+      <a href="{% url 'account_login' %}" class="btn btn-lg btn-primary me-3">Login</a>
+      <a href="{% url 'account_signup' %}" class="btn btn-lg btn-warning">Signup</a>
     </div>
   </div>
   {% endblock %}
